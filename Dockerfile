@@ -20,3 +20,6 @@ RUN cd $GOPATH/src && restweb build GoOnlineJudge
 EXPOSE 8080
 
 CMD restweb run GoOnlineJudge
+CMD sudo apt-get install flex
+CMD sudo apt-get install build-essential
+CMD sudo apt-get install openjdk-7-jdk
